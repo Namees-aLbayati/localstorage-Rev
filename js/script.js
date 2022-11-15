@@ -6,7 +6,6 @@ var submitBtn=document.getElementById('btn');
 var historyEl=document.getElementById('history');
 var dataJson=JSON.parse(localStorage.getItem('data'))
 var array=[];
-array=JSON.parse(localStorage.getItem('data'))||[];
 
 var header=document.createElement('h3');
 header.textContent=`user name: ${dataJson.email}`;
