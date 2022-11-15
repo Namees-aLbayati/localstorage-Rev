@@ -4,7 +4,7 @@ var emailEl=document.getElementById('email');
 var passwordEl=document.getElementById('password');
 var submitBtn=document.getElementById('btn');
 var historyEl=document.getElementById('history');
-var dataJson=JSON.parse(localStorage.getItem('data'))
+var dataJson=JSON.parse(localStorage.getItem('data'))||[]
 var array=[];
 
 var header=document.createElement('h3');
